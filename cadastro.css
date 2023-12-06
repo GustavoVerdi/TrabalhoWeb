@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    padding: 15px;
+    display: inline-block;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Aumentei a margem inferior para melhorar a aparência */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: calc(100% - 22px); /* Ajustei a largura para manter a consistência com a borda e o padding */
+    padding: 10px; /* Ajustei o padding para melhorar a aparência */
+    margin-bottom: 15px; /* Aumentei a margem inferior para melhorar a aparência */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: calc(100% - 22px); /* Ajustei a largura para manter a consistência com a borda e o padding */
+    padding: 10px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #27ae60;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
