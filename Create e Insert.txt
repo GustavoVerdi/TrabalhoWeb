@@ -15,7 +15,7 @@ SELECT * FROM LOGINS
 ##TABLE USUARIO
 CREATE TABLE public.usuarios
 (
-    codigo id SERIAL PRIMARY KEY,
+    codigo SERIAL PRIMARY KEY,
     nome character varying(255),
     sobrenome character varying(255),
     datenas date,
