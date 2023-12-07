@@ -3,9 +3,9 @@ session_start();
 
 $host = 'localhost';
 $port = '5432';
-$dbname = 'verdi';
+$dbname = 'trabalhofinal';
 $user = 'postgres';
-$password = '1234';
+$password = '123456';
 
 try {
     $pdo = new PDO("pgsql:host=$host;port=$port;dbname=$dbname;user=$user;password=$password");
